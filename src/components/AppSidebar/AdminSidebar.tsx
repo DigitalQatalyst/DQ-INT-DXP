@@ -159,30 +159,23 @@ export const AdminSidebar: React.FC<AdminSidebarProps> = ({
       label: 'ANALYTICS & MONITORING',
       category: 'category'
     }, {
-      id: 'platform-analytics',
-      label: 'Platform Analytics',
+      id: 'internal-analytics',
+      label: 'Internal Users',
       icon: <BarChart3 size={20} />,
       subItems: [
-        { id: 'market-internal', label: 'Market (Internal)' },
-        { id: 'market-external', label: 'Market (External)' },
-      ],
-    }, 
-    {
-      id: 'strategic-analytics',
-      label: 'Strategic Analytics',
-      icon: <BarChart3 size={20} />,
-      subItems: [
-        { id: 'strategic-internal', label: 'Strategic (Internal)' },
-        { id: 'strategic-external', label: 'Strategic (External)' },
+        { id: 'internal-market', label: 'Market' },
+        { id: 'internal-strategic', label: 'Strategic' },
+        { id: 'internal-operational', label: 'Operational' },
       ],
     },
     {
-      id: 'operational-analytics',
-      label: 'Operational Analytics',
+      id: 'external-analytics',
+      label: 'External Users',
       icon: <BarChart3 size={20} />,
       subItems: [
-        { id: 'operational-internal', label: 'Operational (Internal)' },
-        { id: 'operational-external', label: 'Operational (External)' },
+        { id: 'external-market', label: 'Market' },
+        { id: 'external-strategic', label: 'Strategic' },
+        { id: 'external-engagement', label: 'Engagement' },
       ],
     },
     {
